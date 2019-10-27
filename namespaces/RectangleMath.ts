@@ -1,4 +1,4 @@
-export namespace RectangleMath {
+namespace RectangleMath {
   export const calculateRectangleArea: (
     width: number,
     length: number
