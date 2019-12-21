@@ -139,3 +139,19 @@ function add2(a: Combinable, b: Combinable): string | number {
 console.log(add2("1", 2).concat(" - YEET"));
 
 // ***** OPTIONAL CHAINING *****
+// don't know if a key is in object
+const fetchedUserData = {
+  id: "u1",
+  name: "Justin",
+  // job: { title: "CEO", description: "My own company" },
+};
+
+// safely access properties that may or may not be defined
+// console.log(fetchedUserData?.job?.title);
+
+// ***** NULLISH COALESCING *****
+const userInput = null;
+// if `null` or `undefined`, use the empty string
+const storedData = userInput ?? "Default";
+
+console.log(storedData);

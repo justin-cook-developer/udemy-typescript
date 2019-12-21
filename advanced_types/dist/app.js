@@ -43,4 +43,11 @@ function add2(a, b) {
     return a + b;
 }
 console.log(add2("1", 2).concat(" - YEET"));
+var fetchedUserData = {
+    id: "u1",
+    name: "Justin",
+};
+var userInput = null;
+var storedData = (userInput !== null && userInput !== void 0 ? userInput : "Default");
+console.log(storedData);
 //# sourceMappingURL=app.js.map
